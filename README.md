@@ -10,6 +10,7 @@ This is based on:
 2. A script I wrote (byn.py) to simulate the game.
 
 ### Simulation Results
+
 #### 1,000 Games
 ![1,000 Games](byn-1000.png)
 
@@ -21,6 +22,16 @@ This is based on:
 
 #### 1000,000 Games
 ![1,000,000 Games](byn-1000000.png)
+
+#### The effect of changing Court Cards: JQKA vs JQK vs JQ vs J
+The following table shows that with <b>less court cards</b>, the average game is longer (mean turns increases) but the flip length (mean flips) reduces.
+
+| Court Cards | Min Turns | Max Turns  | Mean Turns | Min Flips | Max Flips | Mean Flips |
+| ----------: | --------: | ---------: | ---------: | --------: | --------: | ---------: |
+|        JQKA |         9 |        700 |     108.51 |         4 |        26 |      12.31 |
+|        JQK  |        21 |      1,518 |     214.94 |         3 |        18 |       7.83 |
+|        JQ   |        35 |      2,994 |     374.03 |         2 |         9 |       4.42 |
+|        J    |        47 |      3,710 |     614.19 |         1 |         4 |       1.98 |
 
 
 ### Help
@@ -428,7 +439,7 @@ Hand1(2)
 Hand2(49)
 9-clubs  5-spades  8-spades  7-clubs  5-clubs  A-diamonds  7-spades  10-diamonds  9-hearts  Q-diamonds  8-clubs  9-spades  J-diamonds
 2-spades  A-spades  K-clubs  9-diamonds  2-clubs  4-spades  A-hearts  10-clubs  8-diamonds  4-clubs  3-hearts  J-spades  7-hearts
-2-hearts  10-spades  4-hearts  6-diamonds  2-diamonds  A-clubs  7-diamonds  5-diamonds  J-hearts  6-hearts  Q-hearts  6-spades  K-hearts  
+2-hearts  10-spades  4-hearts  6-diamonds  2-diamonds  A-clubs  7-diamonds  5-diamonds  J-hearts  6-hearts  Q-hearts  6-spades  K-hearts
 Q-clubs  8-hearts  K-diamonds  3-diamonds  Q-spades  4-diamonds  K-spades  3-spades  J-clubs  10-hearts
 
 27 Player 1: 3-clubs
