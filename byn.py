@@ -3,6 +3,7 @@ import argparse
 import os
 import matplotlib.pyplot as plt
 import numpy as np
+import time
 
 """
   byn.py
@@ -21,6 +22,7 @@ import numpy as np
                 A flip is when a payout flips from one player back to the other, which can happen multiple times randomly.
                 Add -c to define the court-cards to use, "JQKA" (default), "JQK", "JQ" or "J".
                 Using just the Jack ("J") seems to sometimes loop, if cycles develop.
+                Add -p <secs> and -t <secs> pause delay between each game/turn.
 """
 cost_dict = {'J': 1, 'Q': 2, 'K': 3, 'A': 4}
 
@@ -69,6 +71,8 @@ def pay_penalty(hand, card, pile):
               print('Cost is {}, Player 1 paying {}'.format(str(cost), pay_card))
           if (hand == hand2):
               print('Cost is {}, Player 2 paying {}'.format(str(cost), pay_card))
+      if (turn_pause > 0):
+          time.sleep(turn_pause)
       if is_court_card(pay_card):
           break
 
@@ -112,29 +116,38 @@ def take_pile(hand, hand1, hand2, pile):
 # Check for any command line args.
 parser = argparse.ArgumentParser(description='This program simulates a 2-player game of Beat Thy Neighbour.')
 parser.add_argument('-n', '--games', help='no of games to play', type=int, default=1)
-parser.add_argument('-c', '--court', help='definition of the court-cards', type=str, default='JQKA')
+parser.add_argument('-c', '--cards', help='definition of the court-cards', type=str, default='JQKA')
 parser.add_argument('-d', '--debug', help='print some debugging output', action='store_true')
 parser.add_argument('-l', '--level', help='print debug level', type=int, default=1)
 parser.add_argument('-q', '--quiet', help='supress gameplay', action='store_true')
 parser.add_argument('-s', '--step', help='step through each turn', action='store_true')
+parser.add_argument('-g', '--game_pause', help='pause between each game', type=int, default=3)
+parser.add_argument('-t', '--turn_pause', help='pause between each turn', type=int, default=1)
 args = parser.parse_args()
 
 n = args.games
-court_cards = args.court
+court_cards = args.cards
 debug = args.debug
 debug_level = args.level
 quiet = args.quiet
 step = args.step
+game_pause = args.game_pause
+turn_pause = args.turn_pause
+if quiet:
+    game_pause = 0
+    turn_pause = 0
+
 if debug:
-    print(n)
-    print(quiet)
-    print(step)
+    print('Games:', n)
+    print('Court cards:', court_cards)
+    print('Quiet mode:', quiet)
+    print('Step through each turn:', step)
+    print('Pause delay between each game:', game_pause)
+    print('Pause delay between each turn:', turn_pause)
 
 # Create a deck of cards.
 #suits = '-spades -diamonds -clubs -hearts'.split()
 #suits = '-S -D -C -H'.split()
-# ASCII 3:H 4:D 5:C 6:S
-#suits = '-\6 -\4 -\5 -\3'.split()
 suits = ['♠', '♦', '♥', '♣']
 ranks = [str(n) for n in range(2, 11)] + list('JQKA')
 deck = [str(rank)+ suit for suit in suits
@@ -142,7 +155,7 @@ deck = [str(rank)+ suit for suit in suits
 
 # Check it looks ok.
 if debug:
-    check_cards(deck)
+    check_cards('Init', deck)
 
 # Set up arrays to count various things.
 turns_per_game = []
@@ -159,7 +172,7 @@ while games < n:
 
     # Check it looks shuffled.
     if debug:
-        check_cards(deck)
+        check_cards('Shuffled', deck)
 
     # Now deal, by splitting the deck into 2 halves.
     hand1 = deck[:26]
@@ -176,7 +189,7 @@ while games < n:
     winner = None
     cost = 0
     pile = []
-    turn_count = 0
+    turn_count = 1
     max_penalty_count = 0
     while len(hand1) and len(hand2) > 0:
 
@@ -188,9 +201,9 @@ while games < n:
 
         if not quiet:
             if hand == hand1:
-                print('{} Player 1: {}'.format(turn_count, top_card))
+                print('Turn: {} Player 1: {}'.format(turn_count, top_card))
             else:
-                print('{} Player 2: {}'.format(turn_count, top_card))
+                print('Turn: {} Player 2: {}'.format(turn_count, top_card))
 
         if debug:
             print('Pile:', pile)
@@ -234,6 +247,8 @@ while games < n:
             check_cards('Hand2', hand2)
         if step:
             input("Continue...")
+        if turn_pause > 0:
+            time.sleep(turn_pause)
 
     if not quiet:
         print('Game over! Winner is player {}'.format(winner))
@@ -249,6 +264,10 @@ while games < n:
             wins_p1 += 1
         else:
             wins_p2 += 1
+
+    if game_pause > 0:
+        time.sleep(game_pause)
+
 
 if n > 1 and quiet:
     # Plot a chart of the result.
