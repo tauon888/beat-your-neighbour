@@ -15,11 +15,12 @@ import numpy as np
   Modification History:
   17-Sep-2023 - Initial Version.
   18-Sep-2023 - Added functions to help break it down.
-
-  ToDo:
-  1. Add switch to run 'n' times and write the turns and max penalty as CSV file.
-  2. Analyse the CSV to produce a matplotlib chart.
-  3. Compute the mean and other stats.
+  23-Sep-2023 - Add -n for number of games.
+                Add -q to just show charts of multiple runs with min/max and mean stats of turns and flips.
+                A turn is the complete turn of a single player who either starts the game or wins the previous trick.
+                A flip is when a payout flips from one player back to the other, which can happen multiple times randomly.
+                Add -c to define the court-cards to use, "JQKA" (default), "JQK", "JQ" or "J".
+                Using just the Jack ("J") seems to sometimes loop, if cycles develop.
 """
 cost_dict = {'J': 1, 'Q': 2, 'K': 3, 'A': 4}
 
@@ -41,7 +42,7 @@ def is_court_card(card):
     """
     This just checks if the given card is a court card by looking at the first character.
     """
-    if card[0:1] in 'JQKA':
+    if card[0:1] in court_cards:
         return True
     else:
         return False
@@ -111,6 +112,7 @@ def take_pile(hand, hand1, hand2, pile):
 # Check for any command line args.
 parser = argparse.ArgumentParser(description='This program simulates a 2-player game of Beat Thy Neighbour.')
 parser.add_argument('-n', '--games', help='no of games to play', type=int, default=1)
+parser.add_argument('-c', '--court', help='definition of the court-cards', type=str, default='JQKA')
 parser.add_argument('-d', '--debug', help='print some debugging output', action='store_true')
 parser.add_argument('-l', '--level', help='print debug level', type=int, default=1)
 parser.add_argument('-q', '--quiet', help='supress gameplay', action='store_true')
@@ -118,6 +120,7 @@ parser.add_argument('-s', '--step', help='step through each turn', action='store
 args = parser.parse_args()
 
 n = args.games
+court_cards = args.court
 debug = args.debug
 debug_level = args.level
 quiet = args.quiet
@@ -128,7 +131,11 @@ if debug:
     print(step)
 
 # Create a deck of cards.
-suits = '-spades -diamonds -clubs -hearts'.split()
+#suits = '-spades -diamonds -clubs -hearts'.split()
+#suits = '-S -D -C -H'.split()
+# ASCII 3:H 4:D 5:C 6:S
+#suits = '-\6 -\4 -\5 -\3'.split()
+suits = ['♠', '♦', '♥', '♣']
 ranks = [str(n) for n in range(2, 11)] + list('JQKA')
 deck = [str(rank)+ suit for suit in suits
                         for rank in ranks]
@@ -248,15 +255,17 @@ if n > 1 and quiet:
     x = np.arange(1, n+1)
     max_turns = np.max(turns_per_game)
     min_turns = np.min(turns_per_game)
+    mean_turns = np.mean(turns_per_game)
     max_flips = np.max(flips_per_game)
     min_flips = np.min(flips_per_game)
+    mean_flips = np.mean(flips_per_game)
 
     fig, (ax1, ax2) = plt.subplots(2, 1, sharex=True)
     fig.subplots_adjust(hspace=0)
 
     fig.set_size_inches(16, 9)
 
-    ax1.set_title('Min/Max Turns: {:,}/{:,} and Flips: {:,}/{:,} over {:,} Games. Wins Player 1/Player 2: {:,}/{:,}'.format(min_turns, max_turns, min_flips, max_flips, n, wins_p1, wins_p2))
+    ax1.set_title('Min/Max/Mean Turns: {:,}/{:,}/{:,} and Flips: {:,}/{:,}/{:,} over {:,} Games. Wins Player 1/Player 2: {:,}/{:,}'.format(min_turns, max_turns, mean_turns, min_flips, max_flips, mean_flips, n, wins_p1, wins_p2))
     ax1.plot(x, turns_per_game, color='blue')
     ax1.set(ylabel='Turns per Game')
 
