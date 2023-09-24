@@ -37,7 +37,7 @@ The following table shows that with <b>less court cards</b>, the average game is
 ### Help
 ```
 $ python byn.py -h
-usage: byn.py [-h] [-n GAMES] [-d] [-l LEVEL] [-q] [-s]
+usage: byn.py [-h] [-n GAMES] [-c CARDS] [-d] [-l LEVEL] [-q] [-s] [-g GAME_PAUSE] [-t TURN_PAUSE]
 
 This program simulates a 2-player game of Beat Thy Neighbour.
 
@@ -45,11 +45,17 @@ optional arguments:
   -h, --help            show this help message and exit
   -n GAMES, --games GAMES
                         no of games to play
+  -c CARDS, --cards CARDS
+                        definition of the court-cards
   -d, --debug           print some debugging output
   -l LEVEL, --level LEVEL
                         print debug level
   -q, --quiet           supress gameplay
   -s, --step            step through each turn
+  -g GAME_PAUSE, --game_pause GAME_PAUSE
+                        pause between each game
+  -t TURN_PAUSE, --turn_pause TURN_PAUSE
+                        pause between each turn
 $
 ```
 
