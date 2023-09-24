@@ -126,8 +126,8 @@ parser.add_argument('-d', '--debug', help='print some debugging output', action=
 parser.add_argument('-l', '--level', help='print debug level', type=int, default=1)
 parser.add_argument('-q', '--quiet', help='supress gameplay', action='store_true')
 parser.add_argument('-s', '--step', help='step through each turn', action='store_true')
-parser.add_argument('-g', '--game_pause', help='pause between each game', type=int, default=5)
-parser.add_argument('-t', '--turn_pause', help='pause between each turn', type=int, default=3)
+parser.add_argument('-g', '--game_pause', help='pause between each game', type=int, default=4)
+parser.add_argument('-t', '--turn_pause', help='pause between each turn', type=int, default=2)
 args = parser.parse_args()
 
 n = args.games
