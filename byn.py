@@ -32,12 +32,17 @@ cost_dict = {'J': 1, 'Q': 2, 'K': 3, 'A': 4}
 def check_cards(msg, deck):
     count = 1
     print(msg + '({})'.format(len(deck)))
+    wrapped = False
     for card in deck:
         print(card, ' ', end='')
         if count % 13 == 0:
             print()
+            wrapped = True
+        else:
+            wrapped = False
         count += 1
-    print()
+    if not wrapped:
+        print()
     print()
 
 def is_court_card(card):
@@ -71,8 +76,8 @@ def pay_penalty(hand, card, pile):
               print('Cost is {}, Player 1 paying {}'.format(str(cost), pay_card))
           if (hand == hand2):
               print('Cost is {}, Player 2 paying {}'.format(str(cost), pay_card))
-      if (turn_pause > 0):
-          time.sleep(turn_pause)
+      if (pay_pause > 0):
+          time.sleep(pay_pause)
       if is_court_card(pay_card):
           break
 
@@ -121,8 +126,8 @@ parser.add_argument('-d', '--debug', help='print some debugging output', action=
 parser.add_argument('-l', '--level', help='print debug level', type=int, default=1)
 parser.add_argument('-q', '--quiet', help='supress gameplay', action='store_true')
 parser.add_argument('-s', '--step', help='step through each turn', action='store_true')
-parser.add_argument('-g', '--game_pause', help='pause between each game', type=int, default=3)
-parser.add_argument('-t', '--turn_pause', help='pause between each turn', type=int, default=1)
+parser.add_argument('-g', '--game_pause', help='pause between each game', type=int, default=5)
+parser.add_argument('-t', '--turn_pause', help='pause between each turn', type=int, default=3)
 args = parser.parse_args()
 
 n = args.games
@@ -133,9 +138,11 @@ quiet = args.quiet
 step = args.step
 game_pause = args.game_pause
 turn_pause = args.turn_pause
+pay_pause = turn_pause / 2
 if quiet:
     game_pause = 0
     turn_pause = 0
+    pay_pause = 0
 
 if debug:
     print('Games:', n)
@@ -157,6 +164,12 @@ deck = [str(rank)+ suit for suit in suits
 if debug:
     check_cards('Init', deck)
 
+print('Beat Your Neighbour, 2-Player Card Game Simulation')
+if n > 1:
+    print('Games:', n)
+print('Court cards:', court_cards)
+print()
+
 # Set up arrays to count various things.
 turns_per_game = []
 flips_per_game = []
@@ -166,6 +179,8 @@ wins_p2 = 0
 games = 0
 while games < n:
     games += 1
+    if not quiet:
+        print('Game:', games)
 
     # Shuffle the cards.
     random.shuffle(deck)
@@ -180,8 +195,8 @@ while games < n:
 
     # Check the split looks ok.
     if not quiet:
-        check_cards('Hand1', hand1)
-        check_cards('Hand2', hand2)
+        check_cards('Initial Hand1', hand1)
+        check_cards('Initial Hand2', hand2)
 
     # Now start the game.
     turn = 'player1'
@@ -201,9 +216,9 @@ while games < n:
 
         if not quiet:
             if hand == hand1:
-                print('Turn: {} Player 1: {}'.format(turn_count, top_card))
+                print('Turn: {} Player 1 plays: {}'.format(turn_count, top_card))
             else:
-                print('Turn: {} Player 2: {}'.format(turn_count, top_card))
+                print('Turn: {} Player 2 plays: {}'.format(turn_count, top_card))
 
         if debug:
             print('Pile:', pile)
@@ -252,10 +267,10 @@ while games < n:
 
     if not quiet:
         print('Game over! Winner is player {}'.format(winner))
-        check_cards('Pile', pile)
-        check_cards('Hand1', hand1)
-        check_cards('Hand2', hand2)
-        print('{} turns, longest penalty run {}'.format(turn_count, max_penalty_count))
+        check_cards('Final Pile', pile)
+        check_cards('Final Hand1', hand1)
+        check_cards('Final Hand2', hand2)
+        print('{} turns, longest penalty run {}'.format(turn_count, max_penalty_count+1))
     else:
         print('{},{},{}'.format(turn_count, max_penalty_count, winner))
         turns_per_game.append(turn_count)
@@ -265,7 +280,7 @@ while games < n:
         else:
             wins_p2 += 1
 
-    if game_pause > 0:
+    if (game_pause > 0) and (n > 1):
         time.sleep(game_pause)
 
 
