@@ -23,6 +23,7 @@ import time
                 Add -c to define the court-cards to use, "JQKA" (default), "JQK", "JQ" or "J".
                 Using just the Jack ("J") seems to sometimes loop, if cycles develop.
                 Add -p <secs> and -t <secs> pause delay between each game/turn.
+  28-Sep-2023 - Add coloured suits.
 """
 cost_dict = {'J': 1, 'Q': 2, 'K': 3, 'A': 4}
 
@@ -155,7 +156,8 @@ if debug:
 # Create a deck of cards.
 #suits = '-spades -diamonds -clubs -hearts'.split()
 #suits = '-S -D -C -H'.split()
-suits = ['♠', '♦', '♥', '♣']
+#suits = ['♠', '♦', '♥', '♣']
+suits = ['\u2660\uFE0F', '\u2666\uFE0F', '\u2764\uFE0F', '\u2663\uFE0F']
 ranks = [str(n) for n in range(2, 11)] + list('JQKA')
 deck = [str(rank)+ suit for suit in suits
                         for rank in ranks]
@@ -169,6 +171,9 @@ if n > 1:
     print('Games:', n)
 print('Court cards:', court_cards)
 print()
+
+#print('\u2764\uFE0F')
+#exit()
 
 # Set up arrays to count various things.
 turns_per_game = []
