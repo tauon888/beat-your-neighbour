@@ -67,320 +67,422 @@ Court cards: JQKA
 
 Game: 1
 Initial Hand1(26)
-10♣  5♥  10♦  K♣  3♣  K♠  4♥  5♣  7♣  J♣  7♦  2♦  8♥
-Q♣  9♦  6♦  3♥  10♥  8♠  Q♠  J♦  A♦  6♥  A♣  3♠  Q♦
+A❤️  Q♣️  Q❤️  7❤️  J❤️  7♣️  10♠️  9❤️  7♦️  4♦️  2♠️  2♦️  8♦️
+K♣️  10❤️  9♠️  9♣️  A♠️  J♠️  6♠️  6♦️  2♣️  8❤️  J♦️  6♣️  5❤️
 
 Initial Hand2(26)
-4♦  8♣  4♣  7♠  8♦  K♦  9♠  6♠  3♦  5♦  2♥  J♠  A♠
-4♠  5♠  10♠  2♣  2♠  K♥  Q♥  9♣  9♥  7♥  A♥  6♣  J♥
+A♦️  6❤️  J♣️  3♠️  K♠️  8♣️  3❤️  A♣️  3♣️  Q♠️  K♦️  Q♦️  8♠️
+9♦️  2❤️  5♦️  5♠️  7♠️  4♠️  K❤️  4♣️  3♦️  10♣️  5♣️  4❤️  10♦️
 
-Turn: 1 Player 1 plays: 10♣
+Turn: 1 Player 1 plays: A❤️
+Cost is 4, Player 2 paying A♦️
+Cost is 4, Player 1 paying Q♣️
+Cost is 2, Player 2 paying 6❤️
+Cost is 2, Player 2 paying J♣️
+Cost is 1, Player 1 paying Q❤️
+Cost is 2, Player 2 paying 3♠️
+Cost is 2, Player 2 paying K♠️
+Cost is 3, Player 1 paying 7❤️
+Cost is 3, Player 1 paying J❤️
+Cost is 1, Player 2 paying 8♣️
+Turn winner is player 1
+Hand1(32)
+7♣️  10♠️  9❤️  7♦️  4♦️  2♠️  2♦️  8♦️  K♣️  10❤️  9♠️  9♣️  A♠️
+J♠️  6♠️  6♦️  2♣️  8❤️  J♦️  6♣️  5❤️  A❤️  A♦️  Q♣️  6❤️  J♣️
+Q❤️  3♠️  K♠️  7❤️  J❤️  8♣️
+
+Hand2(20)
+3❤️  A♣️  3♣️  Q♠️  K♦️  Q♦️  8♠️  9♦️  2❤️  5♦️  5♠️  7♠️  4♠️
+K❤️  4♣️  3♦️  10♣️  5♣️  4❤️  10♦️
+
+Turn: 2 Player 1 plays: 7♣️
 Pile(1)
-10♣
+7♣️
 
-Hand1(25)
-5♥  10♦  K♣  3♣  K♠  4♥  5♣  7♣  J♣  7♦  2♦  8♥  Q♣
-9♦  6♦  3♥  10♥  8♠  Q♠  J♦  A♦  6♥  A♣  3♠  Q♦
+Hand1(31)
+10♠️  9❤️  7♦️  4♦️  2♠️  2♦️  8♦️  K♣️  10❤️  9♠️  9♣️  A♠️  J♠️
+6♠️  6♦️  2♣️  8❤️  J♦️  6♣️  5❤️  A❤️  A♦️  Q♣️  6❤️  J♣️  Q❤️
+3♠️  K♠️  7❤️  J❤️  8♣️
+
+Hand2(20)
+3❤️  A♣️  3♣️  Q♠️  K♦️  Q♦️  8♠️  9♦️  2❤️  5♦️  5♠️  7♠️  4♠️
+K❤️  4♣️  3♦️  10♣️  5♣️  4❤️  10♦️
+
+Turn: 3 Player 2 plays: 3❤️
+Pile(2)
+7♣️  3❤️
+
+Hand1(31)
+10♠️  9❤️  7♦️  4♦️  2♠️  2♦️  8♦️  K♣️  10❤️  9♠️  9♣️  A♠️  J♠️
+6♠️  6♦️  2♣️  8❤️  J♦️  6♣️  5❤️  A❤️  A♦️  Q♣️  6❤️  J♣️  Q❤️
+3♠️  K♠️  7❤️  J❤️  8♣️
+
+Hand2(19)
+A♣️  3♣️  Q♠️  K♦️  Q♦️  8♠️  9♦️  2❤️  5♦️  5♠️  7♠️  4♠️  K❤️
+4♣️  3♦️  10♣️  5♣️  4❤️  10♦️
+
+Turn: 4 Player 1 plays: 10♠️
+Pile(3)
+7♣️  3❤️  10♠️
+
+Hand1(30)
+9❤️  7♦️  4♦️  2♠️  2♦️  8♦️  K♣️  10❤️  9♠️  9♣️  A♠️  J♠️  6♠️
+6♦️  2♣️  8❤️  J♦️  6♣️  5❤️  A❤️  A♦️  Q♣️  6❤️  J♣️  Q❤️  3♠️
+K♠️  7❤️  J❤️  8♣️
+
+Hand2(19)
+A♣️  3♣️  Q♠️  K♦️  Q♦️  8♠️  9♦️  2❤️  5♦️  5♠️  7♠️  4♠️  K❤️
+4♣️  3♦️  10♣️  5♣️  4❤️  10♦️
+
+Turn: 5 Player 2 plays: A♣️
+Cost is 4, Player 1 paying 9❤️
+Cost is 4, Player 1 paying 7♦️
+Cost is 4, Player 1 paying 4♦️
+Cost is 4, Player 1 paying 2♠️
+Turn winner is player 2
+Hand1(26)
+2♦️  8♦️  K♣️  10❤️  9♠️  9♣️  A♠️  J♠️  6♠️  6♦️  2♣️  8❤️  J♦️
+6♣️  5❤️  A❤️  A♦️  Q♣️  6❤️  J♣️  Q❤️  3♠️  K♠️  7❤️  J❤️  8♣️
 
 Hand2(26)
-4♦  8♣  4♣  7♠  8♦  K♦  9♠  6♠  3♦  5♦  2♥  J♠  A♠
-4♠  5♠  10♠  2♣  2♠  K♥  Q♥  9♣  9♥  7♥  A♥  6♣  J♥
+3♣️  Q♠️  K♦️  Q♦️  8♠️  9♦️  2❤️  5♦️  5♠️  7♠️  4♠️  K❤️  4♣️
+3♦️  10♣️  5♣️  4❤️  10♦️  7♣️  3❤️  10♠️  A♣️  9❤️  7♦️  4♦️  2♠️
 
-Turn: 2 Player 2 plays: 4♦
+Turn: 6 Player 2 plays: 3♣️
+Pile(1)
+3♣️
+
+Hand1(26)
+2♦️  8♦️  K♣️  10❤️  9♠️  9♣️  A♠️  J♠️  6♠️  6♦️  2♣️  8❤️  J♦️
+6♣️  5❤️  A❤️  A♦️  Q♣️  6❤️  J♣️  Q❤️  3♠️  K♠️  7❤️  J❤️  8♣️
+
+Hand2(25)
+Q♠️  K♦️  Q♦️  8♠️  9♦️  2❤️  5♦️  5♠️  7♠️  4♠️  K❤️  4♣️  3♦️
+10♣️  5♣️  4❤️  10♦️  7♣️  3❤️  10♠️  A♣️  9❤️  7♦️  4♦️  2♠️
+
+Turn: 7 Player 1 plays: 2♦️
 Pile(2)
-10♣  4♦
+3♣️  2♦️
 
 Hand1(25)
-5♥  10♦  K♣  3♣  K♠  4♥  5♣  7♣  J♣  7♦  2♦  8♥  Q♣
-9♦  6♦  3♥  10♥  8♠  Q♠  J♦  A♦  6♥  A♣  3♠  Q♦
+8♦️  K♣️  10❤️  9♠️  9♣️  A♠️  J♠️  6♠️  6♦️  2♣️  8❤️  J♦️  6♣️
+5❤️  A❤️  A♦️  Q♣️  6❤️  J♣️  Q❤️  3♠️  K♠️  7❤️  J❤️  8♣️
 
 Hand2(25)
-8♣  4♣  7♠  8♦  K♦  9♠  6♠  3♦  5♦  2♥  J♠  A♠  4♠
-5♠  10♠  2♣  2♠  K♥  Q♥  9♣  9♥  7♥  A♥  6♣  J♥
+Q♠️  K♦️  Q♦️  8♠️  9♦️  2❤️  5♦️  5♠️  7♠️  4♠️  K❤️  4♣️  3♦️
+10♣️  5♣️  4❤️  10♦️  7♣️  3❤️  10♠️  A♣️  9❤️  7♦️  4♦️  2♠️
 
-Turn: 3 Player 1 plays: 5♥
-Pile(3)
-10♣  4♦  5♥
+Turn: 8 Player 2 plays: Q♠️
+Cost is 2, Player 1 paying 8♦️
+Cost is 2, Player 1 paying K♣️
+Cost is 3, Player 2 paying K♦️
+Cost is 3, Player 1 paying 10❤️
+Cost is 3, Player 1 paying 9♠️
+Cost is 3, Player 1 paying 9♣️
+Turn winner is player 2
+Hand1(20)
+A♠️  J♠️  6♠️  6♦️  2♣️  8❤️  J♦️  6♣️  5❤️  A❤️  A♦️  Q♣️  6❤️
+J♣️  Q❤️  3♠️  K♠️  7❤️  J❤️  8♣️
 
-Hand1(24)
-10♦  K♣  3♣  K♠  4♥  5♣  7♣  J♣  7♦  2♦  8♥  Q♣  9♦
-6♦  3♥  10♥  8♠  Q♠  J♦  A♦  6♥  A♣  3♠  Q♦
+Hand2(32)
+Q♦️  8♠️  9♦️  2❤️  5♦️  5♠️  7♠️  4♠️  K❤️  4♣️  3♦️  10♣️  5♣️
+4❤️  10♦️  7♣️  3❤️  10♠️  A♣️  9❤️  7♦️  4♦️  2♠️  3♣️  2♦️  Q♠️
+8♦️  K♣️  K♦️  10❤️  9♠️  9♣️
 
-Hand2(25)
-8♣  4♣  7♠  8♦  K♦  9♠  6♠  3♦  5♦  2♥  J♠  A♠  4♠
-5♠  10♠  2♣  2♠  K♥  Q♥  9♣  9♥  7♥  A♥  6♣  J♥
-
-Turn: 4 Player 2 plays: 8♣
-Pile(4)
-10♣  4♦  5♥  8♣
-
-Hand1(24)
-10♦  K♣  3♣  K♠  4♥  5♣  7♣  J♣  7♦  2♦  8♥  Q♣  9♦
-6♦  3♥  10♥  8♠  Q♠  J♦  A♦  6♥  A♣  3♠  Q♦
-
-Hand2(24)
-4♣  7♠  8♦  K♦  9♠  6♠  3♦  5♦  2♥  J♠  A♠  4♠  5♠
-10♠  2♣  2♠  K♥  Q♥  9♣  9♥  7♥  A♥  6♣  J♥
-
-Turn: 5 Player 1 plays: 10♦
-Pile(5)
-10♣  4♦  5♥  8♣  10♦
-
-Hand1(23)
-K♣  3♣  K♠  4♥  5♣  7♣  J♣  7♦  2♦  8♥  Q♣  9♦  6♦
-3♥  10♥  8♠  Q♠  J♦  A♦  6♥  A♣  3♠  Q♦
-
-Hand2(24)
-4♣  7♠  8♦  K♦  9♠  6♠  3♦  5♦  2♥  J♠  A♠  4♠  5♠
-10♠  2♣  2♠  K♥  Q♥  9♣  9♥  7♥  A♥  6♣  J♥
-
-Turn: 6 Player 2 plays: 4♣
-Pile(6)
-10♣  4♦  5♥  8♣  10♦  4♣
-
-Hand1(23)
-K♣  3♣  K♠  4♥  5♣  7♣  J♣  7♦  2♦  8♥  Q♣  9♦  6♦
-3♥  10♥  8♠  Q♠  J♦  A♦  6♥  A♣  3♠  Q♦
-
-Hand2(23)
-7♠  8♦  K♦  9♠  6♠  3♦  5♦  2♥  J♠  A♠  4♠  5♠  10♠
-2♣  2♠  K♥  Q♥  9♣  9♥  7♥  A♥  6♣  J♥
-
-Turn: 7 Player 1 plays: K♣
-Cost is 3, Player 2 paying 7♠
-Cost is 3, Player 2 paying 8♦
-Cost is 3, Player 2 paying K♦
-Cost is 3, Player 1 paying 3♣
-Cost is 3, Player 1 paying K♠
-Cost is 3, Player 2 paying 9♠
-Cost is 3, Player 2 paying 6♠
-Cost is 3, Player 2 paying 3♦
+Turn: 9 Player 2 plays: Q♦️
+Cost is 2, Player 1 paying A♠️
+Cost is 4, Player 2 paying 8♠️
+Cost is 4, Player 2 paying 9♦️
+Cost is 4, Player 2 paying 2❤️
+Cost is 4, Player 2 paying 5♦️
 Turn winner is player 1
-Hand1(35)
-4♥  5♣  7♣  J♣  7♦  2♦  8♥  Q♣  9♦  6♦  3♥  10♥  8♠
-Q♠  J♦  A♦  6♥  A♣  3♠  Q♦  10♣  4♦  5♥  8♣  10♦  4♣
-K♣  7♠  8♦  K♦  3♣  K♠  9♠  6♠  3♦
+Hand1(25)
+J♠️  6♠️  6♦️  2♣️  8❤️  J♦️  6♣️  5❤️  A❤️  A♦️  Q♣️  6❤️  J♣️
+Q❤️  3♠️  K♠️  7❤️  J❤️  8♣️  Q♦️  A♠️  8♠️  9♦️  2❤️  5♦️
 
-Hand2(17)
-5♦  2♥  J♠  A♠  4♠  5♠  10♠  2♣  2♠  K♥  Q♥  9♣  9♥
-7♥  A♥  6♣  J♥
+Hand2(27)
+5♠️  7♠️  4♠️  K❤️  4♣️  3♦️  10♣️  5♣️  4❤️  10♦️  7♣️  3❤️  10♠️
+A♣️  9❤️  7♦️  4♦️  2♠️  3♣️  2♦️  Q♠️  8♦️  K♣️  K♦️  10❤️  9♠️
+9♣️
 
-Turn: 8 Player 1 plays: 4♥
+Turn: 10 Player 1 plays: J♠️
+Cost is 1, Player 2 paying 5♠️
+Turn winner is player 1
+Hand1(26)
+6♠️  6♦️  2♣️  8❤️  J♦️  6♣️  5❤️  A❤️  A♦️  Q♣️  6❤️  J♣️  Q❤️
+3♠️  K♠️  7❤️  J❤️  8♣️  Q♦️  A♠️  8♠️  9♦️  2❤️  5♦️  J♠️  5♠️
+
+Hand2(26)
+7♠️  4♠️  K❤️  4♣️  3♦️  10♣️  5♣️  4❤️  10♦️  7♣️  3❤️  10♠️  A♣️
+9❤️  7♦️  4♦️  2♠️  3♣️  2♦️  Q♠️  8♦️  K♣️  K♦️  10❤️  9♠️  9♣️
+
+Turn: 11 Player 1 plays: 6♠️
 Pile(1)
-4♥
+6♠️
 
-Hand1(34)
-5♣  7♣  J♣  7♦  2♦  8♥  Q♣  9♦  6♦  3♥  10♥  8♠  Q♠
-J♦  A♦  6♥  A♣  3♠  Q♦  10♣  4♦  5♥  8♣  10♦  4♣  K♣
-7♠  8♦  K♦  3♣  K♠  9♠  6♠  3♦
+Hand1(25)
+6♦️  2♣️  8❤️  J♦️  6♣️  5❤️  A❤️  A♦️  Q♣️  6❤️  J♣️  Q❤️  3♠️
+K♠️  7❤️  J❤️  8♣️  Q♦️  A♠️  8♠️  9♦️  2❤️  5♦️  J♠️  5♠️
 
-Hand2(17)
-5♦  2♥  J♠  A♠  4♠  5♠  10♠  2♣  2♠  K♥  Q♥  9♣  9♥
-7♥  A♥  6♣  J♥
+Hand2(26)
+7♠️  4♠️  K❤️  4♣️  3♦️  10♣️  5♣️  4❤️  10♦️  7♣️  3❤️  10♠️  A♣️
+9❤️  7♦️  4♦️  2♠️  3♣️  2♦️  Q♠️  8♦️  K♣️  K♦️  10❤️  9♠️  9♣️
 
-Turn: 9 Player 2 plays: 5♦
+Turn: 12 Player 2 plays: 7♠️
 Pile(2)
-4♥  5♦
+6♠️  7♠️
 
-Hand1(34)
-5♣  7♣  J♣  7♦  2♦  8♥  Q♣  9♦  6♦  3♥  10♥  8♠  Q♠
-J♦  A♦  6♥  A♣  3♠  Q♦  10♣  4♦  5♥  8♣  10♦  4♣  K♣
-7♠  8♦  K♦  3♣  K♠  9♠  6♠  3♦
+Hand1(25)
+6♦️  2♣️  8❤️  J♦️  6♣️  5❤️  A❤️  A♦️  Q♣️  6❤️  J♣️  Q❤️  3♠️
+K♠️  7❤️  J❤️  8♣️  Q♦️  A♠️  8♠️  9♦️  2❤️  5♦️  J♠️  5♠️
 
-Hand2(16)
-2♥  J♠  A♠  4♠  5♠  10♠  2♣  2♠  K♥  Q♥  9♣  9♥  7♥
-A♥  6♣  J♥
+Hand2(25)
+4♠️  K❤️  4♣️  3♦️  10♣️  5♣️  4❤️  10♦️  7♣️  3❤️  10♠️  A♣️  9❤️
+7♦️  4♦️  2♠️  3♣️  2♦️  Q♠️  8♦️  K♣️  K♦️  10❤️  9♠️  9♣️
 
-Turn: 10 Player 1 plays: 5♣
+Turn: 13 Player 1 plays: 6♦️
 Pile(3)
-4♥  5♦  5♣
+6♠️  7♠️  6♦️
 
-Hand1(33)
-7♣  J♣  7♦  2♦  8♥  Q♣  9♦  6♦  3♥  10♥  8♠  Q♠  J♦
-A♦  6♥  A♣  3♠  Q♦  10♣  4♦  5♥  8♣  10♦  4♣  K♣  7♠
-8♦  K♦  3♣  K♠  9♠  6♠  3♦
+Hand1(24)
+2♣️  8❤️  J♦️  6♣️  5❤️  A❤️  A♦️  Q♣️  6❤️  J♣️  Q❤️  3♠️  K♠️
+7❤️  J❤️  8♣️  Q♦️  A♠️  8♠️  9♦️  2❤️  5♦️  J♠️  5♠️
+
+Hand2(25)
+4♠️  K❤️  4♣️  3♦️  10♣️  5♣️  4❤️  10♦️  7♣️  3❤️  10♠️  A♣️  9❤️
+7♦️  4♦️  2♠️  3♣️  2♦️  Q♠️  8♦️  K♣️  K♦️  10❤️  9♠️  9♣️
+
+Turn: 14 Player 2 plays: 4♠️
+Pile(4)
+6♠️  7♠️  6♦️  4♠️
+
+Hand1(24)
+2♣️  8❤️  J♦️  6♣️  5❤️  A❤️  A♦️  Q♣️  6❤️  J♣️  Q❤️  3♠️  K♠️
+7❤️  J❤️  8♣️  Q♦️  A♠️  8♠️  9♦️  2❤️  5♦️  J♠️  5♠️
+
+Hand2(24)
+K❤️  4♣️  3♦️  10♣️  5♣️  4❤️  10♦️  7♣️  3❤️  10♠️  A♣️  9❤️  7♦️
+4♦️  2♠️  3♣️  2♦️  Q♠️  8♦️  K♣️  K♦️  10❤️  9♠️  9♣️
+
+Turn: 15 Player 1 plays: 2♣️
+Pile(5)
+6♠️  7♠️  6♦️  4♠️  2♣️
+
+Hand1(23)
+8❤️  J♦️  6♣️  5❤️  A❤️  A♦️  Q♣️  6❤️  J♣️  Q❤️  3♠️  K♠️  7❤️
+J❤️  8♣️  Q♦️  A♠️  8♠️  9♦️  2❤️  5♦️  J♠️  5♠️
+
+Hand2(24)
+K❤️  4♣️  3♦️  10♣️  5♣️  4❤️  10♦️  7♣️  3❤️  10♠️  A♣️  9❤️  7♦️
+4♦️  2♠️  3♣️  2♦️  Q♠️  8♦️  K♣️  K♦️  10❤️  9♠️  9♣️
+
+Turn: 16 Player 2 plays: K❤️
+Cost is 3, Player 1 paying 8❤️
+Cost is 3, Player 1 paying J♦️
+Cost is 1, Player 2 paying 4♣️
+Turn winner is player 1
+Hand1(30)
+6♣️  5❤️  A❤️  A♦️  Q♣️  6❤️  J♣️  Q❤️  3♠️  K♠️  7❤️  J❤️  8♣️
+Q♦️  A♠️  8♠️  9♦️  2❤️  5♦️  J♠️  5♠️  6♠️  7♠️  6♦️  4♠️  2♣️
+K❤️  8❤️  J♦️  4♣️
+
+Hand2(22)
+3♦️  10♣️  5♣️  4❤️  10♦️  7♣️  3❤️  10♠️  A♣️  9❤️  7♦️  4♦️  2♠️
+3♣️  2♦️  Q♠️  8♦️  K♣️  K♦️  10❤️  9♠️  9♣️
+
+Turn: 17 Player 1 plays: 6♣️
+Pile(1)
+6♣️
+
+Hand1(29)
+5❤️  A❤️  A♦️  Q♣️  6❤️  J♣️  Q❤️  3♠️  K♠️  7❤️  J❤️  8♣️  Q♦️
+A♠️  8♠️  9♦️  2❤️  5♦️  J♠️  5♠️  6♠️  7♠️  6♦️  4♠️  2♣️  K❤️
+8❤️  J♦️  4♣️
+
+Hand2(22)
+3♦️  10♣️  5♣️  4❤️  10♦️  7♣️  3❤️  10♠️  A♣️  9❤️  7♦️  4♦️  2♠️
+3♣️  2♦️  Q♠️  8♦️  K♣️  K♦️  10❤️  9♠️  9♣️
+
+Turn: 18 Player 2 plays: 3♦️
+Pile(2)
+6♣️  3♦️
+
+Hand1(29)
+5❤️  A❤️  A♦️  Q♣️  6❤️  J♣️  Q❤️  3♠️  K♠️  7❤️  J❤️  8♣️  Q♦️
+A♠️  8♠️  9♦️  2❤️  5♦️  J♠️  5♠️  6♠️  7♠️  6♦️  4♠️  2♣️  K❤️
+8❤️  J♦️  4♣️
+
+Hand2(21)
+10♣️  5♣️  4❤️  10♦️  7♣️  3❤️  10♠️  A♣️  9❤️  7♦️  4♦️  2♠️  3♣️
+2♦️  Q♠️  8♦️  K♣️  K♦️  10❤️  9♠️  9♣️
+
+Turn: 19 Player 1 plays: 5❤️
+Pile(3)
+6♣️  3♦️  5❤️
+
+Hand1(28)
+A❤️  A♦️  Q♣️  6❤️  J♣️  Q❤️  3♠️  K♠️  7❤️  J❤️  8♣️  Q♦️  A♠️
+8♠️  9♦️  2❤️  5♦️  J♠️  5♠️  6♠️  7♠️  6♦️  4♠️  2♣️  K❤️  8❤️
+J♦️  4♣️
+
+Hand2(21)
+10♣️  5♣️  4❤️  10♦️  7♣️  3❤️  10♠️  A♣️  9❤️  7♦️  4♦️  2♠️  3♣️
+2♦️  Q♠️  8♦️  K♣️  K♦️  10❤️  9♠️  9♣️
+
+Turn: 20 Player 2 plays: 10♣️
+Pile(4)
+6♣️  3♦️  5❤️  10♣️
+
+Hand1(28)
+A❤️  A♦️  Q♣️  6❤️  J♣️  Q❤️  3♠️  K♠️  7❤️  J❤️  8♣️  Q♦️  A♠️
+8♠️  9♦️  2❤️  5♦️  J♠️  5♠️  6♠️  7♠️  6♦️  4♠️  2♣️  K❤️  8❤️
+J♦️  4♣️
+
+Hand2(20)
+5♣️  4❤️  10♦️  7♣️  3❤️  10♠️  A♣️  9❤️  7♦️  4♦️  2♠️  3♣️  2♦️
+Q♠️  8♦️  K♣️  K♦️  10❤️  9♠️  9♣️
+
+Turn: 21 Player 1 plays: A❤️
+Cost is 4, Player 2 paying 5♣️
+Cost is 4, Player 2 paying 4❤️
+Cost is 4, Player 2 paying 10♦️
+Cost is 4, Player 2 paying 7♣️
+Turn winner is player 1
+Hand1(36)
+A♦️  Q♣️  6❤️  J♣️  Q❤️  3♠️  K♠️  7❤️  J❤️  8♣️  Q♦️  A♠️  8♠️
+9♦️  2❤️  5♦️  J♠️  5♠️  6♠️  7♠️  6♦️  4♠️  2♣️  K❤️  8❤️  J♦️
+4♣️  6♣️  3♦️  5❤️  10♣️  A❤️  5♣️  4❤️  10♦️  7♣️
 
 Hand2(16)
-2♥  J♠  A♠  4♠  5♠  10♠  2♣  2♠  K♥  Q♥  9♣  9♥  7♥
-A♥  6♣  J♥
+3❤️  10♠️  A♣️  9❤️  7♦️  4♦️  2♠️  3♣️  2♦️  Q♠️  8♦️  K♣️  K♦️
+10❤️  9♠️  9♣️
 
-Turn: 11 Player 2 plays: 2♥
-Pile(4)
-4♥  5♦  5♣  2♥
-
-Hand1(33)
-7♣  J♣  7♦  2♦  8♥  Q♣  9♦  6♦  3♥  10♥  8♠  Q♠  J♦
-A♦  6♥  A♣  3♠  Q♦  10♣  4♦  5♥  8♣  10♦  4♣  K♣  7♠
-8♦  K♦  3♣  K♠  9♠  6♠  3♦
-
-Hand2(15)
-J♠  A♠  4♠  5♠  10♠  2♣  2♠  K♥  Q♥  9♣  9♥  7♥  A♥
-6♣  J♥
-
-Turn: 12 Player 1 plays: 7♣
-Pile(5)
-4♥  5♦  5♣  2♥  7♣
-
-Hand1(32)
-J♣  7♦  2♦  8♥  Q♣  9♦  6♦  3♥  10♥  8♠  Q♠  J♦  A♦
-6♥  A♣  3♠  Q♦  10♣  4♦  5♥  8♣  10♦  4♣  K♣  7♠  8♦
-K♦  3♣  K♠  9♠  6♠  3♦
-
-Hand2(15)
-J♠  A♠  4♠  5♠  10♠  2♣  2♠  K♥  Q♥  9♣  9♥  7♥  A♥
-6♣  J♥
-
-Turn: 13 Player 2 plays: J♠
-Cost is 1, Player 1 paying J♣
-Cost is 1, Player 2 paying A♠
-Cost is 4, Player 1 paying 7♦
-Cost is 4, Player 1 paying 2♦
-Cost is 4, Player 1 paying 8♥
-Cost is 4, Player 1 paying Q♣
-Cost is 2, Player 2 paying 4♠
-Cost is 2, Player 2 paying 5♠
+Turn: 22 Player 1 plays: A♦️
+Cost is 4, Player 2 paying 3❤️
+Cost is 4, Player 2 paying 10♠️
+Cost is 4, Player 2 paying A♣️
+Cost is 4, Player 1 paying Q♣️
+Cost is 2, Player 2 paying 9❤️
+Cost is 2, Player 2 paying 7♦️
 Turn winner is player 1
 Hand1(41)
-9♦  6♦  3♥  10♥  8♠  Q♠  J♦  A♦  6♥  A♣  3♠  Q♦  10♣
-4♦  5♥  8♣  10♦  4♣  K♣  7♠  8♦  K♦  3♣  K♠  9♠  6♠
-3♦  4♥  5♦  5♣  2♥  7♣  J♠  J♣  A♠  7♦  2♦  8♥  Q♣
-4♠  5♠
+6❤️  J♣️  Q❤️  3♠️  K♠️  7❤️  J❤️  8♣️  Q♦️  A♠️  8♠️  9♦️  2❤️
+5♦️  J♠️  5♠️  6♠️  7♠️  6♦️  4♠️  2♣️  K❤️  8❤️  J♦️  4♣️  6♣️
+3♦️  5❤️  10♣️  A❤️  5♣️  4❤️  10♦️  7♣️  A♦️  3❤️  10♠️  A♣️  Q♣️
+9❤️  7♦️
 
 Hand2(11)
-10♠  2♣  2♠  K♥  Q♥  9♣  9♥  7♥  A♥  6♣  J♥
+4♦️  2♠️  3♣️  2♦️  Q♠️  8♦️  K♣️  K♦️  10❤️  9♠️  9♣️
 
-Turn: 14 Player 1 plays: 9♦
+Turn: 23 Player 1 plays: 6❤️
 Pile(1)
-9♦
+6❤️
 
 Hand1(40)
-6♦  3♥  10♥  8♠  Q♠  J♦  A♦  6♥  A♣  3♠  Q♦  10♣  4♦
-5♥  8♣  10♦  4♣  K♣  7♠  8♦  K♦  3♣  K♠  9♠  6♠  3♦
-4♥  5♦  5♣  2♥  7♣  J♠  J♣  A♠  7♦  2♦  8♥  Q♣  4♠
-5♠
+J♣️  Q❤️  3♠️  K♠️  7❤️  J❤️  8♣️  Q♦️  A♠️  8♠️  9♦️  2❤️  5♦️
+J♠️  5♠️  6♠️  7♠️  6♦️  4♠️  2♣️  K❤️  8❤️  J♦️  4♣️  6♣️  3♦️
+5❤️  10♣️  A❤️  5♣️  4❤️  10♦️  7♣️  A♦️  3❤️  10♠️  A♣️  Q♣️  9❤️
+7♦️
 
 Hand2(11)
-10♠  2♣  2♠  K♥  Q♥  9♣  9♥  7♥  A♥  6♣  J♥
+4♦️  2♠️  3♣️  2♦️  Q♠️  8♦️  K♣️  K♦️  10❤️  9♠️  9♣️
 
-Turn: 15 Player 2 plays: 10♠
+Turn: 24 Player 2 plays: 4♦️
 Pile(2)
-9♦  10♠
+6❤️  4♦️
 
 Hand1(40)
-6♦  3♥  10♥  8♠  Q♠  J♦  A♦  6♥  A♣  3♠  Q♦  10♣  4♦
-5♥  8♣  10♦  4♣  K♣  7♠  8♦  K♦  3♣  K♠  9♠  6♠  3♦
-4♥  5♦  5♣  2♥  7♣  J♠  J♣  A♠  7♦  2♦  8♥  Q♣  4♠
-5♠
+J♣️  Q❤️  3♠️  K♠️  7❤️  J❤️  8♣️  Q♦️  A♠️  8♠️  9♦️  2❤️  5♦️
+J♠️  5♠️  6♠️  7♠️  6♦️  4♠️  2♣️  K❤️  8❤️  J♦️  4♣️  6♣️  3♦️
+5❤️  10♣️  A❤️  5♣️  4❤️  10♦️  7♣️  A♦️  3❤️  10♠️  A♣️  Q♣️  9❤️
+7♦️
 
 Hand2(10)
-2♣  2♠  K♥  Q♥  9♣  9♥  7♥  A♥  6♣  J♥
+2♠️  3♣️  2♦️  Q♠️  8♦️  K♣️  K♦️  10❤️  9♠️  9♣️
 
-Turn: 16 Player 1 plays: 6♦
-Pile(3)
-9♦  10♠  6♦
-
-Hand1(39)
-3♥  10♥  8♠  Q♠  J♦  A♦  6♥  A♣  3♠  Q♦  10♣  4♦  5♥
-8♣  10♦  4♣  K♣  7♠  8♦  K♦  3♣  K♠  9♠  6♠  3♦  4♥
-5♦  5♣  2♥  7♣  J♠  J♣  A♠  7♦  2♦  8♥  Q♣  4♠  5♠
-
-Hand2(10)
-2♣  2♠  K♥  Q♥  9♣  9♥  7♥  A♥  6♣  J♥
-
-Turn: 17 Player 2 plays: 2♣
-Pile(4)
-9♦  10♠  6♦  2♣
-
-Hand1(39)
-3♥  10♥  8♠  Q♠  J♦  A♦  6♥  A♣  3♠  Q♦  10♣  4♦  5♥
-8♣  10♦  4♣  K♣  7♠  8♦  K♦  3♣  K♠  9♠  6♠  3♦  4♥
-5♦  5♣  2♥  7♣  J♠  J♣  A♠  7♦  2♦  8♥  Q♣  4♠  5♠
-
-Hand2(9)
-2♠  K♥  Q♥  9♣  9♥  7♥  A♥  6♣  J♥
-
-Turn: 18 Player 1 plays: 3♥
-Pile(5)
-9♦  10♠  6♦  2♣  3♥
-
-Hand1(38)
-10♥  8♠  Q♠  J♦  A♦  6♥  A♣  3♠  Q♦  10♣  4♦  5♥  8♣
-10♦  4♣  K♣  7♠  8♦  K♦  3♣  K♠  9♠  6♠  3♦  4♥  5♦
-5♣  2♥  7♣  J♠  J♣  A♠  7♦  2♦  8♥  Q♣  4♠  5♠
-
-Hand2(9)
-2♠  K♥  Q♥  9♣  9♥  7♥  A♥  6♣  J♥
-
-Turn: 19 Player 2 plays: 2♠
-Pile(6)
-9♦  10♠  6♦  2♣  3♥  2♠
-
-Hand1(38)
-10♥  8♠  Q♠  J♦  A♦  6♥  A♣  3♠  Q♦  10♣  4♦  5♥  8♣
-10♦  4♣  K♣  7♠  8♦  K♦  3♣  K♠  9♠  6♠  3♦  4♥  5♦
-5♣  2♥  7♣  J♠  J♣  A♠  7♦  2♦  8♥  Q♣  4♠  5♠
-
-Hand2(8)
-K♥  Q♥  9♣  9♥  7♥  A♥  6♣  J♥
-
-Turn: 20 Player 1 plays: 10♥
-Pile(7)
-9♦  10♠  6♦  2♣  3♥  2♠  10♥
-
-Hand1(37)
-8♠  Q♠  J♦  A♦  6♥  A♣  3♠  Q♦  10♣  4♦  5♥  8♣  10♦
-4♣  K♣  7♠  8♦  K♦  3♣  K♠  9♠  6♠  3♦  4♥  5♦  5♣
-2♥  7♣  J♠  J♣  A♠  7♦  2♦  8♥  Q♣  4♠  5♠
-
-Hand2(8)
-K♥  Q♥  9♣  9♥  7♥  A♥  6♣  J♥
-
-Turn: 21 Player 2 plays: K♥
-Cost is 3, Player 1 paying 8♠
-Cost is 3, Player 1 paying Q♠
-Cost is 2, Player 2 paying Q♥
-Cost is 2, Player 1 paying J♦
-Cost is 1, Player 2 paying 9♣
+Turn: 25 Player 1 plays: J♣️
+Cost is 1, Player 2 paying 2♠️
 Turn winner is player 1
-Hand1(47)
-A♦  6♥  A♣  3♠  Q♦  10♣  4♦  5♥  8♣  10♦  4♣  K♣  7♠
-8♦  K♦  3♣  K♠  9♠  6♠  3♦  4♥  5♦  5♣  2♥  7♣  J♠
-J♣  A♠  7♦  2♦  8♥  Q♣  4♠  5♠  9♦  10♠  6♦  2♣  3♥
-2♠  10♥  K♥  8♠  Q♠  Q♥  J♦  9♣
+Hand1(43)
+Q❤️  3♠️  K♠️  7❤️  J❤️  8♣️  Q♦️  A♠️  8♠️  9♦️  2❤️  5♦️  J♠️
+5♠️  6♠️  7♠️  6♦️  4♠️  2♣️  K❤️  8❤️  J♦️  4♣️  6♣️  3♦️  5❤️
+10♣️  A❤️  5♣️  4❤️  10♦️  7♣️  A♦️  3❤️  10♠️  A♣️  Q♣️  9❤️  7♦️
+6❤️  4♦️  J♣️  2♠️
 
-Hand2(5)
-9♥  7♥  A♥  6♣  J♥
+Hand2(9)
+3♣️  2♦️  Q♠️  8♦️  K♣️  K♦️  10❤️  9♠️  9♣️
 
-Turn: 22 Player 1 plays: A♦
-Cost is 4, Player 2 paying 9♥
-Cost is 4, Player 2 paying 7♥
-Cost is 4, Player 2 paying A♥
-Cost is 4, Player 1 paying 6♥
-Cost is 4, Player 1 paying A♣
-Cost is 4, Player 2 paying 6♣
-Cost is 4, Player 2 paying J♥
+Turn: 26 Player 1 plays: Q❤️
+Cost is 2, Player 2 paying 3♣️
+Cost is 2, Player 2 paying 2♦️
+Turn winner is player 1
+Hand1(45)
+3♠️  K♠️  7❤️  J❤️  8♣️  Q♦️  A♠️  8♠️  9♦️  2❤️  5♦️  J♠️  5♠️
+6♠️  7♠️  6♦️  4♠️  2♣️  K❤️  8❤️  J♦️  4♣️  6♣️  3♦️  5❤️  10♣️
+A❤️  5♣️  4❤️  10♦️  7♣️  A♦️  3❤️  10♠️  A♣️  Q♣️  9❤️  7♦️  6❤️
+4♦️  J♣️  2♠️  Q❤️  3♣️  2♦️
+
+Hand2(7)
+Q♠️  8♦️  K♣️  K♦️  10❤️  9♠️  9♣️
+
+Turn: 27 Player 1 plays: 3♠️
+Pile(1)
+3♠️
+
 Hand1(44)
-3♠  Q♦  10♣  4♦  5♥  8♣  10♦  4♣  K♣  7♠  8♦  K♦  3♣
-K♠  9♠  6♠  3♦  4♥  5♦  5♣  2♥  7♣  J♠  J♣  A♠  7♦
-2♦  8♥  Q♣  4♠  5♠  9♦  10♠  6♦  2♣  3♥  2♠  10♥  K♥
-8♠  Q♠  Q♥  J♦  9♣
+K♠️  7❤️  J❤️  8♣️  Q♦️  A♠️  8♠️  9♦️  2❤️  5♦️  J♠️  5♠️  6♠️
+7♠️  6♦️  4♠️  2♣️  K❤️  8❤️  J♦️  4♣️  6♣️  3♦️  5❤️  10♣️  A❤️
+5♣️  4❤️  10♦️  7♣️  A♦️  3❤️  10♠️  A♣️  Q♣️  9❤️  7♦️  6❤️  4♦️
+J♣️  2♠️  Q❤️  3♣️  2♦️
+
+Hand2(7)
+Q♠️  8♦️  K♣️  K♦️  10❤️  9♠️  9♣️
+
+Turn: 28 Player 2 plays: Q♠️
+Cost is 2, Player 1 paying K♠️
+Cost is 3, Player 2 paying 8♦️
+Cost is 3, Player 2 paying K♣️
+Cost is 3, Player 1 paying 7❤️
+Cost is 3, Player 1 paying J❤️
+Cost is 1, Player 2 paying K♦️
+Cost is 3, Player 1 paying 8♣️
+Cost is 3, Player 1 paying Q♦️
+Cost is 2, Player 2 paying 10❤️
+Cost is 2, Player 2 paying 9♠️
+Turn winner is player 1
+Hand1(51)
+A♠️  8♠️  9♦️  2❤️  5♦️  J♠️  5♠️  6♠️  7♠️  6♦️  4♠️  2♣️  K❤️
+8❤️  J♦️  4♣️  6♣️  3♦️  5❤️  10♣️  A❤️  5♣️  4❤️  10♦️  7♣️  A♦️
+3❤️  10♠️  A♣️  Q♣️  9❤️  7♦️  6❤️  4♦️  J♣️  2♠️  Q❤️  3♣️  2♦️
+3♠️  Q♠️  K♠️  8♦️  K♣️  7❤️  J❤️  K♦️  8♣️  Q♦️  10❤️  9♠️
+
+Hand2(1)
+9♣️
+
+Turn: 29 Player 1 plays: A♠️
+Cost is 4, Player 2 paying 9♣️
+Hand1(50)
+8♠️  9♦️  2❤️  5♦️  J♠️  5♠️  6♠️  7♠️  6♦️  4♠️  2♣️  K❤️  8❤️
+J♦️  4♣️  6♣️  3♦️  5❤️  10♣️  A❤️  5♣️  4❤️  10♦️  7♣️  A♦️  3❤️
+10♠️  A♣️  Q♣️  9❤️  7♦️  6❤️  4♦️  J♣️  2♠️  Q❤️  3♣️  2♦️  3♠️
+Q♠️  K♠️  8♦️  K♣️  7❤️  J❤️  K♦️  8♣️  Q♦️  10❤️  9♠️
 
 Hand2(0)
 
 
 Game over! Winner is player 2
-Final Pile(8)
-A♦  9♥  7♥  A♥  6♥  A♣  6♣  J♥
+Final Pile(2)
+A♠️  9♣️
 
-Final Hand1(44)
-3♠  Q♦  10♣  4♦  5♥  8♣  10♦  4♣  K♣  7♠  8♦  K♦  3♣
-K♠  9♠  6♠  3♦  4♥  5♦  5♣  2♥  7♣  J♠  J♣  A♠  7♦
-2♦  8♥  Q♣  4♠  5♠  9♦  10♠  6♦  2♣  3♥  2♠  10♥  K♥
-8♠  Q♠  Q♥  J♦  9♣
+Final Hand1(50)
+8♠️  9♦️  2❤️  5♦️  J♠️  5♠️  6♠️  7♠️  6♦️  4♠️  2♣️  K❤️  8❤️
+J♦️  4♣️  6♣️  3♦️  5❤️  10♣️  A❤️  5♣️  4❤️  10♦️  7♣️  A♦️  3❤️
+10♠️  A♣️  Q♣️  9❤️  7♦️  6❤️  4♦️  J♣️  2♠️  Q❤️  3♣️  2♦️  3♠️
+Q♠️  K♠️  8♦️  K♣️  7❤️  J❤️  K♦️  8♣️  Q♦️  10❤️  9♠️
 
 Final Hand2(0)
 
 
-23 turns, longest penalty run 9
+30 turns, longest penalty run 11
 $
 ```
